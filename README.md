@@ -3,9 +3,9 @@
 The HealthyPiv4 HAT should already be set up onto the Raspberry Pi. Connect the white USB wire that is labeled "ERD" into your computer. It should automatiically install the necessary driver. If it doesn't, you can install [here](https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip). Make sure the ON/OFF switch on the HealthyPiv4 is switched to on, the PI/WL switch is switched to PI, and the Raspberry Pi is plugged in.
 
 - Once installed, you now need to download [Processing](https://processing.org/download/?processing).
-- Once downloaded, extract all the files. Now, you need our uploaded and extracted code which we uploaded to eLearning. Once that is extracted, we only modified one file called gui.pde. The path to this file within our submitted folder should be HealthyPiv4-Trojan-Replay\gui\gui.pde.
+- Once downloaded, extract all the files. Now, you need our uploaded and extracted code which we uploaded to eLearning. Once that is extracted, we only modified one file called gui.pde. The path to this file within our submitted folder should be HealthyPiv4-Trojan-Replay\HealthyPiv4-Trojan-Replay\gui\gui.pde.
 - To open Processing, go to the extracted folder and find the processing.exe file and run it.
-- Open Processing and then File -> Open -> (downloaded path) -> HealthyPiv4-Trojan-Replay -> gui -> gui.pde to open the HealthyPiv4 Processing code.
+- Open Processing and then File -> Open -> (downloaded path) -> HealthyPiv4-Trojan-Replay -> HealthyPiv4-Trojan-Replay -> gui -> gui.pde to open the HealthyPiv4 Processing code.
 - Install its additional libraries from Sketch-> Import Library-> Install G4P, ControlP5, mqtt, Graphica.
 - In Processing IDE, Select “Tools” from the menu and choose, “Add tools”.
 - Select “Upload To Pi” tool and click Install.
