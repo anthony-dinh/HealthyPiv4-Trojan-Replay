@@ -584,9 +584,14 @@ public void recordData()
          {
            len = 1000 - i;
          }
+         println(global_record[b][i]);
          for(int a = i; a < len + i; a++)
          {
            global_record[b][a] = global_record[b][i] + rand;
+           if(a == (len + i - 1))
+           {
+             println("last value: " + global_record[b][a]);
+           }
          }
          i += len;
        }
