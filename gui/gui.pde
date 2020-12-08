@@ -586,7 +586,7 @@ public void recordData()
          }
          for(int a = i; a < len + i; a++)
          {
-           global_record[b][a] += global_record[b][i] + rand;
+           global_record[b][a] = global_record[b][i] + rand;
          }
          i += len;
        }

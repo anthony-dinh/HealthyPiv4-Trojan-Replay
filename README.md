@@ -14,6 +14,8 @@ The HealthyPiv4 HAT should already be set up onto the Raspberry Pi. Connect the 
 - This may give an error, but the gui display should still work on your computer. Click the run button in the top left. A new window should pop open on your computer with the gui display.
 - In the top left, click on "Select Serial Port" and select the serial port that the Raspberry is on. If you are unable to find it, or the only available options do not work, then the driver was probably not installed. Once the port is selected, hit Run and the display should start displaying graphs and data.
 
+- If all the sensors are plugged in and working properly, no hard-coded values are needed, and the data tampering should work on its own. However, if at least one of the sensors is unplugged or not functioning properly, hard-coded values will be needed for the data tampering. We have commented out our hard-coded values on lines 769-772 if you would like to use our hard-coded values.
+
 - Instructions from Protocentral can be found [here](https://healthypi.protocentral.com/setting%20up%20complete%20kit.html).
 
 # Welcome to HealthyPi v4
