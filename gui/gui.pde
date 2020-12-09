@@ -584,14 +584,10 @@ public void recordData()
          {
            len = 1000 - i;
          }
-         println(global_record[b][i]);
-         for(int a = i; a < len + i; a++)
+         global_record[b][i] += rand;
+         for(int a = i + 1; a < len + i; a++)
          {
-           global_record[b][a] = global_record[b][i] + rand;
-           if(a == (len + i - 1))
-           {
-             println("last value: " + global_record[b][a]);
-           }
+           global_record[b][a] = global_record[b][i];
          }
          i += len;
        }
@@ -771,10 +767,10 @@ void ecsProcessData(char rxch)
         global_spo2 = (int) (CES_Pkt_Data_Counter[15]);
         global_hr = (int) (CES_Pkt_Data_Counter[16]);
         
-        global_rr = 60;
-        global_hr = 80;
-        global_spo2 = 30;
-        global_temp = 25;
+        //global_rr = 60;
+        //global_hr = 80;
+        //global_spo2 = 30;
+        //global_temp = 25;
         recordData();
          
         int BP_Value_Sys = (int) CES_Pkt_Data_Counter[17];
